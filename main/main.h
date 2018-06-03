@@ -16,6 +16,8 @@
 #define EXAMPLE_WIFI_SSID               CONFIG_WIFI_SSID
 #define EXAMPLE_WIFI_PASS               CONFIG_WIFI_PASSWORD
 
+#define PASSWORD "123"
+
 #define SERVER_TASK_NAME "server_task"
 #define SERVER_TASK_STACK_WORDS 10240
 #define SERVER_TASK_PRIORITY    8
@@ -23,6 +25,9 @@
 #define SERVER_TASK_RECV_BUF_LEN       1024
 
 #define SERVER_TASK_LOCAL_TCP_PORT     443
+
+#define MAX_STR_LEN 400
+#define MAX_STR_LEN_INT 10
 
 #endif
 
